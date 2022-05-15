@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.container .header {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header h1 {
+    font-family: 'Rye', cursive;
+    background: linear-gradient(white, #7f0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.container .header h1 a {
+    text-decoration: none;
+}
+
+.container .header .menu li a {
+    text-decoration: none;
+}
+
+.container .header .menu li a:hover {
+    color: #7f0000;
+}
+
+.container .menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-family: 'Rye', cursive;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.image-1 {
+    margin-right: 10px;
+}
+
+.image-2 {
+    margin-left: 10px;
+}
+
+.text p {
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.content-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-c {
+    margin: 40px 20px;
+}
+
+.text-c {
+    display: inline-block;
+    width: 30%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Vujahday Script', cursive;
+    color: #a4a4a4;
+}
+
+.gallary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gallary1 {
+    margin-right: 5px;
+}
+
+.gallary1:hover {
+    width: 480px;
+    height: 210px;
+    border: 5px solid white;
+    transition: all 0.3s ease;
+}
+
+.gallary2 {
+    margin-left: 5px;
+}
+
+.gallary2:hover {
+    width: 480px;
+    height: 210px;
+    border: 5px solid white;
+    transition: all 0.3s ease;
+}
